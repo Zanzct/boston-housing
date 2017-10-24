@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 # Mac OS
 .DS_Store
 
+=======
+>>>>>>> bef4b9cf6e56b92dac2e1fbe83d3e76b1ca76c99
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -23,6 +26,10 @@ lib64/
 parts/
 sdist/
 var/
+<<<<<<< HEAD
+=======
+wheels/
+>>>>>>> bef4b9cf6e56b92dac2e1fbe83d3e76b1ca76c99
 *.egg-info/
 .installed.cfg
 *.egg
@@ -45,7 +52,11 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
+<<<<<<< HEAD
 *,cover
+=======
+*.cover
+>>>>>>> bef4b9cf6e56b92dac2e1fbe83d3e76b1ca76c99
 .hypothesis/
 
 # Translations
@@ -54,6 +65,17 @@ coverage.xml
 
 # Django stuff:
 *.log
+<<<<<<< HEAD
+=======
+local_settings.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+>>>>>>> bef4b9cf6e56b92dac2e1fbe83d3e76b1ca76c99
 
 # Sphinx documentation
 docs/_build/
@@ -61,5 +83,40 @@ docs/_build/
 # PyBuilder
 target/
 
+<<<<<<< HEAD
 #Ipython Notebook
 .ipynb_checkpoints
+=======
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# dotenv
+.env
+
+# virtualenv
+.venv
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+>>>>>>> bef4b9cf6e56b92dac2e1fbe83d3e76b1ca76c99
